@@ -20,7 +20,7 @@ spec:
     - name: regcred
     containers:
     - name: mavenwebappcontainer
-      image: priya27mar/maven-web-app
+      image: priya27mar/maven-web-app:latest
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
