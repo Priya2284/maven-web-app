@@ -16,6 +16,8 @@ spec:
    labels:
      app: mavenwebapp	 
   spec: 
+    imagePullSecrets:
+    - name: regcred
     containers:
     - name: mavenwebappcontainer
       image: priya27mar/maven-web-app
